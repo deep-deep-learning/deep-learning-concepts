@@ -5,7 +5,7 @@
 - Gradient Descent
     - new_variables = old_variables - learning_rate * the gradient of old_variables to loss function.
     - Follows gradient to optimize the variables.
-- Stochastic Gradient Descent:
+- Stochastic Gradient Descent
     - Uses mini-batch to update instead of full batch from gradient descent.
     - Highly affected by learning_rate and batch_size.
 - Momentum
