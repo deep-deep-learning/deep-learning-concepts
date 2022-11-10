@@ -29,3 +29,21 @@
 - ReLU
     - y = max(0, x).
     - Solves vanishing gradient problem.
+
+### Regularization
+
+- L1
+    - Adds abs(W) to the loss function.
+    - Induces sparsity.
+
+- L2
+    - Adds root square of W to the loss function.
+    - Better when all features are meaningful.
+    - Differentiable thus optimizable with gradient approaches.
+
+- Dropout
+    - Every training epoch, randomly selects neurons and sets activation to 0.
+    - Like learning an ensemble of subnetworks.
+
+- Early stopping
+    - Prevents overfitting by stopping training when test loss stops improving.
